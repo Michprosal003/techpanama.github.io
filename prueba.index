@@ -1,0 +1,146 @@
+
+
+<div class="grid">
+
+<div class="card-1">
+<div class="modelo-1">
+   
+</div>
+
+<div class="modelo-2">
+    <a class="information" href="#">Informacion</a>
+</div>
+
+
+
+
+<img src="imagenes/unnamed.png" alt="" class="avatar">
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card-2">
+
+    <div class="modelo-1"></div>
+    <div class="modelo-2">
+        <a class="information" href="#">Informacion</a>
+
+    </div>
+    <img src="imagenes/unnamed.png" alt="" class="avatar">
+    
+
+
+</div>
+
+
+
+
+<div class="card-3">
+
+
+    <div class="modelo-1"></div>
+    <div class="modelo-2">
+        <a class="information" href="#">Informacion</a>
+
+    </div>
+    <img src="imagenes/unnamed.png" alt="" class="avatar">
+    
+
+</div>
+
+</div>
+
+
+
+<style>
+
+.card-1{
+width: 300px;
+height: 400px;
+background-color: darkred;
+
+}
+
+.card-2{
+width: 300px;
+height: 400px;
+background-color: darkred;
+
+}
+
+
+
+.card-3{
+width: 300px;
+height: 400px;
+background-color: darkred;
+
+}
+
+
+.grid {
+display: grid;
+grid-template-columns:1fr 1fr 1fr ;
+margin-left: 100px;
+padding-top: 100px;
+
+
+
+}
+
+.modelo-1{
+    width: 300px;
+height: 200px;
+background-color: dodgerblue;
+
+
+}
+
+.modelo-2{
+    width: 300px;
+height: 200px;
+background-color: orange;
+padding-top: 50px;
+
+
+}
+
+img.avatar {
+width:10%;
+border-radius: 50%;
+margin-left: 70px;
+position: absolute;
+top: 50px;
+
+
+}
+
+.information {
+margin-left: 100px;
+border: 1px solid white;
+background-color: aliceblue;
+text-decoration: none;
+padding: 10px;
+margin: 100px;
+
+
+
+}
+
+
+
+body {
+background-color: darkslategray;
+
+
+
+}
+
+</style>
